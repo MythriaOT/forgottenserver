@@ -16,6 +16,14 @@ stairJumpExhaustion = 2000
 experienceByKillingPlayers = false
 expFromPlayersLevelRange = 75
 
+-- MySQL
+mysqlHost = "db"
+mysqlUser = "forgottenserver"
+mysqlPass = "admin"
+mysqlDatabase = "forgottenserver"
+mysqlPort = 3306
+mysqlSock = ""
+
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: allowWalkthrough is only applicable to players
