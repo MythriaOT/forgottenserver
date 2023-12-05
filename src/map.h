@@ -150,10 +150,10 @@ private:
 class Map
 {
 public:
-	static constexpr int32_t maxViewportX = 11; // min value: maxClientViewportX + 1
-	static constexpr int32_t maxViewportY = 11; // min value: maxClientViewportY + 1
-	static constexpr int32_t maxClientViewportX = 8;
-	static constexpr int32_t maxClientViewportY = 6;
+	static constexpr int32_t maxViewportX = 17; //min value: maxClientViewportX + 1
+	static constexpr int32_t maxViewportY = 10; //min value: maxClientViewportY + 1
+	static constexpr int32_t maxClientViewportX = 16;
+	static constexpr int32_t maxClientViewportY = 9;
 
 	uint32_t clean() const;
 
